@@ -1,0 +1,23 @@
+body{
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 18px;
+  padding: 0 2rem;
+  color: #333;
+}
+h1{
+  font-size: 200%;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+table{
+  width: 100%;
+}
+thead > tr{
+  background-color: #ccc;
+}
+tr:nth-child(even){
+  background-color: #eee;
+}
+th, td{
+  padding: 1rem;
+}
